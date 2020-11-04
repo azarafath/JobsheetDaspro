@@ -42,5 +42,11 @@ while True:
         tinggi = int(input("Masukkan Tinggi :"))
         luas = (alas * tinggi) / 2
         print("Luas Segitiga adalah :", luas)
-        print("Keliling segitiga  adalah", kel)
+       
+    elif pilih == 4:
+        print("Menghitung Luas Lingkaran")
+        r = int(input("Masukkan Jari Jari"))
+        phi = 3.14
+        luas = phi*r*r
+        print("Luas Lingkaran adalah:", luas)
         
