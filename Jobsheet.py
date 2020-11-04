@@ -29,10 +29,18 @@ while True:
         luas = sisi * sisi
         print("Luas Persegi adalah :", luas)
      
-    else pilih == 2:
+    elif pilih == 2:
         print("Menghitung Luas Persegi Panjang")
         panjang = int(input("Masukkan Panjang :"))
         lebar = int(input("Masukkan Lebar :"))
         luas = panjang * lebar
         print("Luas Persegi Panjang adalah :", luas)
+        
+    elif pilih == 3:
+        print("Menghitung Luas Segitiga")
+        alas = int(input("Masukkan Alas :"))
+        tinggi = int(input("Masukkan Tinggi :"))
+        luas = (alas * tinggi) / 2
+        print("Luas Segitiga adalah :", luas)
+        print("Keliling segitiga  adalah", kel)
         
