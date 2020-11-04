@@ -45,8 +45,13 @@ while True:
        
     elif pilih == 4:
         print("Menghitung Luas Lingkaran")
-        r = int(input("Masukkan Jari Jari"))
+        r = int(input("Masukkan Jari Jari :"))
         phi = 3.14
         luas = phi*r*r
-        print("Luas Lingkaran adalah:", luas)
+        print("Luas Lingkaran adalah :", luas)
         
+    elif pilih == 5:
+        print("Menghitung Keliling Persegi")
+        sisi = int(input("Masukkan Sisi :")
+        keliling = 4 * sisi
+        print("Keliling Persegi adalah :",keliling)
