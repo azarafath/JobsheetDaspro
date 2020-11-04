@@ -27,7 +27,12 @@ while True:
         print("Menghitung Luas Persegi")
         sisi = int(input("Masukkan Panjang Sisi :"))
         luas = sisi * sisi
-        kel = 4 * sisi
-        print("Luas Persegi adalah", luas)
+        print("Luas Persegi adalah :", luas)
      
-    else
+    else pilih == 2:
+        print("Menghitung Luas Persegi Panjang")
+        panjang = int(input("Masukkan Panjang :"))
+        lebar = int(input("Masukkan Lebar :"))
+        luas = panjang * lebar
+        print("Luas Persegi Panjang adalah :", luas)
+        
