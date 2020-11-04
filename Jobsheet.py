@@ -54,4 +54,11 @@ while True:
         print("Menghitung Keliling Persegi")
         sisi = int(input("Masukkan Sisi :")
         keliling = 4 * sisi
-        print("Keliling Persegi adalah :",keliling)
+        print("Keliling Persegi adalah :", keliling)
+                   
+    elif pilih == 6:
+        print("Menghitung Keliling Persegi Panjang")
+        panjang = int(input("Masukkan Panjang :"))
+        lebar = int(input("Masukkan Lebar :"))
+        keliling = (panjang + lebar) * 2
+        print("Luas Persegi Panjang adalah :", keliling)
