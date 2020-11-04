@@ -70,3 +70,10 @@ while True:
         sisiC = int(input("Masukkan Sisi C :")
         keliling = sisiA + sisiB + sisiC
         print("Keliling Segitiga adalah :", keliling)
+    
+    elif pilih == 8:
+        print("Menghitung Keliling Lingkaran")
+        r = int(input("Masukkan Jari Jari :"))
+        phi = 3.14
+        keliling = 2 * phi * r
+        print("Keliling Lingkaran Adalah :", keliling)
