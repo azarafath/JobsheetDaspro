@@ -52,7 +52,7 @@ while True:
         
     elif pilih == 5:
         print("Menghitung Keliling Persegi")
-        sisi = int(input("Masukkan Sisi :")
+        sisi = int(input("Masukkan Sisi :"))
         keliling = 4 * sisi
         print("Keliling Persegi adalah :", keliling)
                    
@@ -65,9 +65,9 @@ while True:
              
     elif pilih == 7:
         print("Menghitung Keliling Segitiga")
-        sisiA = int(input("Masukkan Sisi A :")
-        sisiB = int(input("Masukkan Sisi B :")
-        sisiC = int(input("Masukkan Sisi C :")
+        sisiA = int(input("Masukkan Sisi A :"))
+        sisiB = int(input("Masukkan Sisi B :"))
+        sisiC = int(input("Masukkan Sisi C :"))
         keliling = sisiA + sisiB + sisiC
         print("Keliling Segitiga adalah :", keliling)
     
@@ -77,3 +77,22 @@ while True:
         phi = 3.14
         keliling = 2 * phi * r
         print("Keliling Lingkaran Adalah :", keliling)
+        
+    elif pilih == 9:
+        print("Terima kasih telah menggunakan tools ini")
+        print("Exit...")
+        break
+
+    else:
+      print("Maaf, Pilihan anda salah!!")
+    
+    ulang =""
+    
+    while ulang != "y" and ulang!= "t" :
+        cls()
+        ulang = input("Kembali ke menu utama [y/t] ? ")
+        
+    if ulang == "t":
+        cls()
+        print("Aplikasi Berhenti. Exit...")
+        break
