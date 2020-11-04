@@ -62,3 +62,11 @@ while True:
         lebar = int(input("Masukkan Lebar :"))
         keliling = (panjang + lebar) * 2
         print("Luas Persegi Panjang adalah :", keliling)
+             
+    elif pilih == 7:
+        print("Menghitung Keliling Segitiga")
+        sisiA = int(input("Masukkan Sisi A :")
+        sisiB = int(input("Masukkan Sisi B :")
+        sisiC = int(input("Masukkan Sisi C :")
+        keliling = sisiA + sisiB + sisiC
+        print("Keliling Segitiga adalah :", keliling)
