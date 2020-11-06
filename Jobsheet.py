@@ -55,3 +55,26 @@ while True :
     pilih = int(input("Masukkan Pilihan :"))
 
     cls()
+
+    if pilih == 1:
+        print("Menghitung Luas Persegi")
+        s = int(input("Masukkan panjang sisi :"))
+        print("Luas Persegi :", luas_bujur_sangkar(s))
+        
+    elif pilih == 2:
+        print("Menghitung Luas Persegi Panjang")
+        p = int(input("Masukkan panjang :"))
+        l = int(input("Masukkan lebar :"))
+        print("Luas Persegi Panjang :", luas_persegi_panjang(p,l))
+        
+    elif pilih == 3:
+        print("Menghitung Luas Segitiga")
+        a = int(input("Masukkan alas :"))
+        t = int(input("Masukkan tinggi :"))
+        print("Luas Segitiga :", luas_segitiga(a,t))
+        
+    elif pilih == 4:
+        print("Menghitung Luas Lingkaran")
+        r = int(input("Masukkan jari-jari :"))
+        print("Luas Lingkaran :", luas_lingkaran(r))
+        
