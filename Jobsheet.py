@@ -37,3 +37,21 @@ def keliling_segitiga(a,b,c):
 def keliling_lingkaran(r):
     keliling = 2 * 3.14 * r
     return keliling
+
+while True :
+    #Menu Pilihan Bidang
+    print("Pilihan Bangun Datar")
+    print("1. Luas Persegi")
+    print("2. Luas Persegi Panjang")
+    print("3. Luas Segitiga")
+    print("4. Luas Lingkaran")
+    print("5. Kelilins Persegi")
+    print("6. Keliling Persegi Panjang")
+    print("7. Keliling Segitiga")
+    print("8. Keliling Lingkaran")
+    print("9. Exit ")
+    
+    #Input
+    pilih = int(input("Masukkan Pilihan :"))
+
+    cls()
